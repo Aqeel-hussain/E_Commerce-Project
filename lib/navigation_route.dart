@@ -1,3 +1,4 @@
+import 'package:e_commerce/features/personalization/screens/profile/profile.dart';
 import 'package:e_commerce/features/shope/screen/home/home.dart';
 import 'package:e_commerce/features/shope/screen/store/store_screen.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
@@ -45,5 +46,5 @@ class NavigationController extends GetxController {
   static NavigationController get instance =>Get.find();
 
   RxInt selectedIndex = 0.obs;
-  List<Widget> screen = [HomeScreen(), StoreScreen(),WishlistScreen()];
+  List<Widget> screen = [HomeScreen(), StoreScreen(),WishlistScreen(),ProfileScreen()];
 }

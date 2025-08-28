@@ -7,6 +7,7 @@ class MyImages{
 
   static const String facebookIcon = 'assets/logo/facebook_logo.png';
   static const String googleIcon = 'assets/logo/google_logo.png';
+  static const String profileLogo = 'assets/logo/profile.png';
 
   static const   accountCreateImage = 'assets/images/account_created.png';
   static const   mailSentImage = 'assets/images/mail_illustration.png';
